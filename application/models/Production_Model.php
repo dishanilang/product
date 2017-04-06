@@ -31,4 +31,14 @@ class Production_Model extends CI_Model
         $this->db->where('p_id', $id);
         $this->db->update('product', $updateData); 
     }
+    
+    function updateProduction($id, $updateData) {
+        $this->db->where('pr_id', $id);
+        return $this->db->update('production', $updateData); 
+    }
+    
+    function updateProductionRltn($id, $updateData) {
+        $this->db->where('rel_id', $id);
+        $this->db->update('production_rltn', $updateData);
+    }
 }
