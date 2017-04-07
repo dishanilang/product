@@ -9,7 +9,8 @@
                 <tr>
                     <th>Industry Name</th>
                     <th>Product Name</th>
-                    <th>Total</th>
+                    <th>Production Total</th>
+                    <th>Dispatch Total</th>
                 </tr>
             </thead>
             <tbody>
